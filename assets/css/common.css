@@ -1,0 +1,322 @@
+@charset "utf-8";
+
+:root {
+    --mainColor: #A39CBC;
+    --accentColor: #EBC2AE;
+    --baseColor: #F2F1F1;
+    --fontColor: #2D2828;
+    --shadow: #CBBAC4;
+}
+
+body {
+    font-family: "Times New Roman", "游明朝", "Yu Mincho", "游明朝体", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "HiraMinProN-W3", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+    background-color: #fff;
+    color: var(--fontColor);
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 150%;
+}
+
+@media (min-width: 960px) {
+
+    .layout {
+        display: flex;
+    }
+
+    .nav {
+        font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+        width: 20%;
+        max-width: 250px;
+        background: linear-gradient(to bottom right, var(--mainColor), var(--shadow)95%);
+        flex-direction: column;
+        padding-top: 20px;
+        font-size: 120%;
+        font-weight: bolder;
+        position: sticky;
+    }
+
+    main {
+        margin: 0 20px;
+    }
+
+    .nav h1 {
+        text-align: left;
+        /* テキストを左寄せに設定 */
+        margin-bottom: 50px;
+    }
+
+    .nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav li {
+        margin-bottom: 10px;
+    }
+
+    .nav a {
+        display: block;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: var(--fontColor);
+        transition: color 0.3s, font-size 0.3s;
+        min-width: 160px;
+        /* 文字が大きくなった時の最小幅を指定 */
+    }
+
+    .nav a:hover {
+        color: #fff;
+        font-size: 1.1em;
+    }
+
+    .nav-links {
+        display: block;
+    }
+
+    .copyright {
+        font-weight: lighter;
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+    }
+
+    .sitemap,
+    .copyright2 {
+        display: none;
+    }
+
+    .sitemap h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .sitemap ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .sitemap li {
+        margin-bottom: 5px;
+    }
+
+    .hamburger-menu {
+        display: none;
+        /* 通常時は非表示 */
+    }
+
+    .sp-nav {
+        display: none;
+        /* 通常時は非表示 */
+    }
+}
+
+@media screen and (maX-width: 960px) and (min-width: 501px) {
+    body {
+        font-size: 16px;
+    }
+
+    .copyright {
+        display: none;
+    }
+
+    .nav,
+    footer {
+        font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+        background: linear-gradient(to bottom right, var(--mainColor), var(--shadow)95%);
+        font-weight: bolder;
+    }
+
+    .nav {
+        padding: 30px 0;
+    }
+
+    nav {
+        align-items: center;
+        display: flex;
+    }
+
+    .name {
+        margin-left: 50px;
+        margin-right: 30%;
+    }
+
+    .nav-links {
+        display: flex;
+    }
+
+    .nav ul li {
+        padding-top: 10px;
+        list-style: none;
+        padding-left: 20px;
+    }
+
+    .nav ul:last-child {
+        padding-bottom: 10px;
+    }
+
+    .nav a {
+        text-decoration: none;
+        color: var(--fontColor);
+        transition: color 0.3s, font-size 0.3s;
+    }
+
+    .nav a:hover {
+        color: #fff;
+        font-size: 110%;
+    }
+
+    footer {
+        padding: 20px 0;
+    }
+
+    footer p {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    footer ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer li {
+        list-style: none;
+        padding-left: 20px;
+    }
+
+    .sitemap li a {
+        text-decoration: none;
+        color: #333;
+        display: block;
+        padding: 5px 0;
+    }
+}
+
+
+/* 全体的なレスポンシブデザイン */
+@media screen and (max-width: 500px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    .nav,
+    footer {
+        font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+        background: linear-gradient(to bottom right, var(--mainColor), var(--shadow)95%);
+        font-weight: bolder;
+    }
+
+    /* ヘッダーの調整 */
+
+    .copyright {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+    }
+
+    .name {
+        margin-left: 20px;
+        margin-right: 100px;
+        font-size: 120%;
+    }
+
+    .nav ul li {
+        padding-top: 10px;
+        list-style: none;
+    }
+
+    .nav ul:last-child {
+        padding-bottom: 10px;
+    }
+
+    .nav a {
+        text-decoration: none;
+        color: var(--fontColor);
+        transition: color 0.3s, font-size 0.3s;
+        min-width: 30px;
+    }
+
+    .nav a:hover {
+        color: #fff;
+        font-size: 110%;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        max-width: 60%;
+    }
+
+
+    /* フッターの調整 */
+    footer {
+        text-align: center;
+        padding: 20px;
+        background-color: var(--mainColor);
+    }
+
+    .sitemap li a {
+        padding: 8px 0;
+    }
+
+    footer p {
+        font-size: 0.8em;
+        padding-top: 20px;
+    }
+
+    /* フッターの基本的なスタイル */
+    .sitemap h3 {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    }
+
+    .sitemap ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .sitemap li a {
+        text-decoration: none;
+        color: #333;
+        display: block;
+        padding: 5px 0;
+    }
+
+    footer p {
+        font-size: 0.9em;
+        margin-top: 10px;
+    }
+
+    .h1-2 {
+        font-family: "Noto Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        font-variation-settings: "width" 100;
+        font-family: "Kaisei Decol", serif;
+        font-weight: 400;
+        font-style: normal;
+        background-color: var(--accentColor);
+        font-size: 130%;
+        text-align: center;
+    }
+
+    span {
+        color: var(--accentColor);
+    }
+
+    h2 {
+        border-bottom: solid var(--accentColor) 3px;
+        margin-bottom: 5px;
+        padding: 15px;
+    }
+}

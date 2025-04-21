@@ -1,0 +1,256 @@
+@charset 'utf-8';
+
+:root {
+    --mainColor: #A39CBC;
+    --accentColor: #EBC2AE;
+    --baseColor: #F2F1F1;
+    --fontColor: #2D2828;
+}
+
+/* pdfのリンクにアイコンをつける */
+a[href*=".pdf"]::after {
+    content: "\f1c1";
+    font-family: "Font Awesome 5 Free";
+    color: #F30401;
+}
+
+@media (min-width: 960px) {
+
+    /* 基本情報 */
+
+    .h1-2 {
+        font-family: "Noto Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        font-variation-settings: "width" 100;
+        font-family: "Kaisei Decol", serif;
+        font-weight: 400;
+        font-style: normal;
+        background-color: var(--accentColor);
+        font-size: 200%;
+        text-align: center;
+    }
+
+    .image,
+    .image img {
+        margin: 0 20px;
+    }
+
+    .image img {
+        max-width: 100%;
+    }
+
+
+    .introduction {
+        display: flex;
+        align-items: center;
+    }
+
+    aside {
+        padding-left: 3em;
+    }
+
+    h2 {
+        font-size: 1.1em;
+        border-bottom: solid var(--accentColor) 3px;
+        margin-bottom: 5px;
+        padding: 15px;
+    }
+
+    aside ul {
+        padding: 10px;
+        padding-top: 0;
+        list-style: none;
+    }
+
+    aside ul li {
+        margin: 10px;
+    }
+
+    .work,
+    .study {
+        margin: 10px 20px;
+    }
+
+    .career dl {
+        padding-left: 50px;
+    }
+
+    span {
+        color: var(--accentColor);
+    }
+
+    .illustration,
+    .socks,
+    .child {
+        display: flex;
+        /* flexbox */
+        align-items: center;
+        /* 垂直方向 */
+    }
+
+    .illustration figcaption dl dd,
+    .socks figcaption dl dd,
+    .child figcaption dl dd {
+        margin: 0;
+    }
+
+    .illustration img,
+    .socks img,
+    .child img {
+        padding-right: 30px;
+    }
+
+
+    .introduction,
+    .career,
+    .likes {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (maX-width: 960px) and (min-width: 501px) {
+
+    .h1-2 {
+        font-family: "Noto Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        font-variation-settings: "width" 100;
+        font-family: "Kaisei Decol", serif;
+        font-weight: 400;
+        font-style: normal;
+        background-color: var(--accentColor);
+        font-size: 200%;
+        text-align: center;
+    }
+
+    .image,
+    .image img {
+        margin: 0 20px;
+    }
+
+    .image img {
+        max-width: 100%;
+    }
+
+
+    .introduction {
+        display: flex;
+        align-items: center;
+    }
+
+    aside {
+        padding-left: 3em;
+    }
+
+    h2 {
+        font-size: 1.1em;
+        border-bottom: solid var(--accentColor) 3px;
+        margin-bottom: 5px;
+        padding: 15px;
+    }
+
+    aside ul {
+        padding: 10px;
+        padding-top: 0;
+        list-style: none;
+    }
+
+    aside ul li {
+        margin: 10px;
+    }
+
+    .work,
+    .study {
+        margin: 10px 20px;
+    }
+
+    .career dl {
+        padding-left: 50px;
+    }
+
+    span {
+        color: var(--accentColor);
+    }
+
+    .illustration,
+    .socks,
+    .child {
+        display: flex;
+        /* flexbox */
+        align-items: center;
+        /* 垂直方向 */
+    }
+
+    .illustration figcaption dl dd,
+    .socks figcaption dl dd,
+    .child figcaption dl dd {
+        margin: 0;
+    }
+
+    .illustration img,
+    .socks img,
+    .child img {
+        padding-right: 30px;
+    }
+
+
+    .introduction,
+    .career,
+    .likes {
+        padding-top: 20px;
+    }
+
+    /* pdfのリンクにアイコンをつける */
+    a[href*=".pdf"]::after {
+        content: "\f1c1";
+        font-family: "Font Awesome 5 Free";
+        color: #F30401;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    /* メインコンテンツの調整 */
+
+    .introduction img {
+        margin-top: 20px;
+    }
+
+    .image {
+        text-align: center;
+    }
+
+    .introduction,
+    .career,
+    .likes {
+        margin: 15px;
+    }
+
+    .introduction aside {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    aside ul {
+        margin: 15px 10px;
+    }
+
+    /* 職歴・職業訓練歴セクションの調整 */
+
+    .career dl,
+    .study dl {
+        display: block;
+        margin: 15px 10px;
+    }
+
+    .career dt,
+    .study dt {
+        margin-bottom: 5px;
+    }
+
+    /* 好きなものセクションの調整 */
+
+}

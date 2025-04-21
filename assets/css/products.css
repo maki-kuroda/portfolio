@@ -1,0 +1,181 @@
+@charset 'utf-8';
+
+:root {
+    --mainColor: #A39CBC;
+    --accentColor: #EBC2AE;
+    --baseColor: #F2F1F1;
+    --fontColor: #2D2828;
+    --html: #FED892;
+    --css: #B5BEF6;
+    --js: #F5FB8C;
+    --php: #DEBBE5;
+    --figma: #FDB6F4;
+    --gemini: #B0EBE7;
+    --laravel: #F49999;
+    --mysql: #A7CCF6;
+}
+
+/* google-font */
+.h1-2 {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "width" 100;
+    font-family: "Kaisei Decol", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+h2 {
+    border-bottom: solid var(--accentColor) 3px;
+    margin-bottom: 5px;
+}
+
+.time {
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+.language ul {
+    display: flex;
+    padding-inline-start: 0;
+    margin-top: 0;
+}
+
+.language ul li {
+    list-style: none;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 80px;
+    margin: auto 10px;
+}
+
+/* <weight>: Use a value from 100 to 900
+<uniquifier>: Use a unique and descriptive class name */
+/* google-font */
+.language ul li {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+/* プログラミング言語のカラー */
+.html {
+    background-color: var(--html);
+    /* background: linear-gradient(to bottom right, var(--html), var(--shadow)80%); */
+}
+
+.css {
+    background-color: var(--css);
+}
+
+.js {
+    background-color: var(--js);
+}
+
+.php {
+    background-color: var(--php);
+}
+
+.figma {
+    background-color: var(--figma);
+}
+
+.gemini {
+    background-color: var(--gemini);
+}
+
+.mysql {
+    background-color: var(--mysql);
+}
+
+.laravel {
+    background-color: var(--laravel);
+}
+
+.progate a img {
+    margin-right: 20px;
+}
+
+h3 {
+    margin-bottom: 3px;
+    margin-top: 30px;
+}
+
+h3 span {
+    color: var(--accentColor);
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.reason p,
+.struggle p,
+.learning p,
+.addition p {
+    margin-top: 3px;
+}
+
+.language ul {
+    margin-bottom: 15px;
+}
+
+img {
+    max-width: 100%;
+    box-shadow: 2px 2px 4px var(--fontColor);
+}
+
+@media screen and (min-width: 960px) {
+
+    .h1-2 {
+        margin: 30px;
+    }
+}
+
+@media screen and (maX-width: 960px) and (min-width: 501px) {
+
+    .progate a img {
+        max-width: 50%;
+        margin: 0;
+    }
+
+    main {
+        margin: 20px;
+    }
+
+    .reason,
+    .struggle,
+    .learning {
+        margin: 20px
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .language ul li {
+        list-style: none;
+        font-size: 70%;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 60px;
+        margin: auto 5px;
+    }
+
+    .time,
+    .reason,
+    .struggle,
+    .learning,
+    .addition {
+        margin: 20px;
+    }
+}
