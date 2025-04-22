@@ -23,6 +23,25 @@
                 <img src="images/items/progate-form.jpg" alt="問い合わせページ">
             </a>
         </div>
+        <div id="github-links">
+            <p id="text">
+                <a href="https://github.com/maki-kuroda/hp.git">
+                    <img src="images/lang-icon/github.png" alt="GitHub Link(HP)">
+                </a>
+                <a href="https://github.com/maki-kuroda/hp.git">
+                    https://github.com/maki-kuroda/hp.git(ホームページ)
+                </a>
+            </p>
+            <p id="text">
+                <a href="https://github.com/maki-kuroda/contact-page.git">
+                    <img src="images/lang-icon/github.png" alt="GitHub Link(contact-page)">
+                </a>
+                <a href="https://github.com/maki-kuroda/contact-page.git">
+                    https://github.com/maki-kuroda/contact-page.git(お問い合わせページ)
+                </a>
+            </p>
+        </div>
+
         <div class="reason">
             <h3>
                 <span>●</span>
@@ -75,7 +94,13 @@
             </a>
         </div>
         <div id="github-links">
-            <p>GitHub:<a href="https://github.com/maki-kuroda/portfolio.git/sub/janken2">https://github.com/maki-kuroda/portfolio.git/sub/janken2</a>
+            <p id="text">
+                <a href="https://github.com/maki-kuroda/janken.git">
+                    <img src="images/lang-icon/github.png" alt="GitHub Link(janken)">
+                </a>
+                <a href="https://github.com/maki-kuroda/janken.git">
+                    https://github.com/maki-kuroda/janken.git
+                </a>
             </p>
         </div>
 
@@ -140,7 +165,13 @@
             <img src="images/items/index.png" alt="ポートフォリオのトップページ">
         </div>
         <div id="github-links">
-            <p>GitHub:<a href="https://github.com/maki-kuroda/portfolio.git">https://github.com/maki-kuroda/portfolio.git</a>
+            <p id="text">
+                <a href="https://github.com/maki-kuroda/portfolio.git">
+                    <img src="images/lang-icon/github.png" alt="GitHub Link(portfolio)">
+                </a>
+                <a href="https://github.com/maki-kuroda/portfolio.git">
+                    https://github.com/maki-kuroda/portfolio.git
+                </a>
             </p>
         </div>
         <div class="reason">
@@ -151,7 +182,8 @@
             </h3>
             <p>
                 <!-- 訓練校の課程にはjavascriptが入っていなかった為、javascriptを使用してポートフォリオを制作したかった。 -->
-                <br>ポートフォリオ制作に取り掛かる当初は、自分のスキル不足を感じていたので、見た目やボリューム等自分にとってハードルが高いと感じる設定をした。
+                ポートフォリオ制作に取り掛かる当初は、自分のスキル不足を感じていたので、見た目やボリューム等自分にとってハードルが高いと感じる設定をした。
+                訓練校の授業では、HTMLで結婚式場のウェブサイトを制作したが、ヘッダーとフッターをrequireで呼び出すやり方にチャレンジしたかった。
             </p>
         </div>
         <div class="struggle">
@@ -162,7 +194,8 @@
             </h3>
             <p>
                 自分で一から作るにあたって、分からない所ばかりで調べて試してを繰り返した。
-                <br>特に苦労したのはリンクが繋がらないことで、CSSが反映されなかったり、上記のサイトへのリンクが繋がらず時間がかかった所だった。しかし、サーバーに上げる所も含め、躓きながらでも経験としてやりきることができてよかったと感じた。
+                <br>特に苦労したのはリンクが繋がらないことで、CSSが反映されなかったり、上記のサイトへのリンクが繋がらず時間がかかった所だった。しかし、サーバーに上げる所も含め、躓きながらでも経験としてやりきることができてよかったと感じた。また、このポートフォリオのCSSやファイル構成を何度か繰り返すうちに、リンクが繋がらないというミスはなくなってきたように感じる。
+                <br>ナビゲーションを常に左側に置いておくデザインにするにあたって、自分だけで考えたときにはタグの特性を分かっておらず、苦労した。
             </p>
         </div>
         <div class="learning">
@@ -172,7 +205,8 @@
                 <span>●</span>
             </h3>
             <p>
-                まず何より、ポートフォリオの制作はとても楽しかった。それが、私にとって一番の収穫であり、分からなくても楽しいと思えたことで、これからプログラミングをより深く学んでいきたいという思いも強くなった。
+                まず何より、ポートフォリオの制作はとても楽しかった。それが、私にとって一番の収穫であり、分からなくても楽しいと思えたことで、これからプログラミングをより深く学んでいきたいという思いも強くなった。また、レスポンシブデザインをやり切ったことが自分にとっては自信につながったと感じている。
+                <br>初期のワイヤーフレームの段階では、JavaScriptを使ってトップページのスライドショーとスマートフォンレスポンシブの際に出てくるハンバーガーメニューを付ける予定だったが、想定以上にその他に時間がかかり断念した。これから先JSの触れる機会も作って、今回やり切れなかった所をアップデートしていこうと思う。
             </p>
         </div>
     </section>
