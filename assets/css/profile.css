@@ -64,13 +64,21 @@ a[href*=".pdf"]::after {
         list-style: none;
     }
 
-    aside ul li {
-        margin: 10px;
-    }
-
     .work,
     .study {
         margin: 10px 20px;
+    }
+
+    .work dl,
+    .study dl,
+    .work dl dd,
+    .study dl dd {
+        margin: 7px;
+    }
+
+    .work dl dt,
+    .study dl dt {
+        margin: 12px;
     }
 
     .career dl {

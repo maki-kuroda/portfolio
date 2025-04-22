@@ -18,7 +18,7 @@
             　言語・フレームワーク
         </h2>
         <p>
-            　使用したことのある言語、フレームワーク、ライブラリをまとめました。どの言語により興味を持ち、今後学んでいきたいのか☆の数で表しています。
+            　使用したことのある言語、フレームワーク、ライブラリをまとめました。どの言語により興味を持ち、今後学んでいきたいのかを★の数で表しています。
         </p>
 
         <div class="html">
@@ -116,7 +116,7 @@
         </article>
         <div class="a">
             <ul>
-                <li>
+                <li class="github">
                 <aside>
                     <img src="images/lang-icon/github.png" alt="github-icon">
                 </aside>
@@ -131,7 +131,7 @@
                         </dd>
                     </dl>
                 </li>
-                <li>
+                <li class="canva">
                 <aside>
                     <img src="images/lang-icon/canva.png" alt="canva-icon">
                 </aside>
@@ -146,7 +146,7 @@
                         </dd>
                     </dl>
                 </li>
-                <li>
+                <li class="figma">
                 <aside>
                     <img src="images/lang-icon/figma.png" alt="figma-icon">
                 </aside>
@@ -161,7 +161,7 @@
                         </dd>
                     </dl>
                 </li>
-                <li>
+                <li class="docker">
                 <aside>
                     <img src="images/lang-icon/docker.png" alt="docker-icon">
                 </aside>
@@ -176,7 +176,7 @@
                         </dd>
                     </dl>
                 </li>
-                <li>
+                <li class="gcp">
                 <aside>
                     <img src="images/lang-icon/gcp.png" alt="docker-icon">
                 </aside>

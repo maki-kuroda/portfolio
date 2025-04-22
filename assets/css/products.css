@@ -133,6 +133,15 @@ img {
     box-shadow: 2px 2px 4px var(--fontColor);
 }
 
+#github-links img {
+    box-shadow: none;
+    width: 60px;
+}
+
+#github-links {
+    margin-top: 20px;
+}
+
 @media screen and (min-width: 960px) {
 
     .h1-2 {

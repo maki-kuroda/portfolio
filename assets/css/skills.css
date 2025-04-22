@@ -39,6 +39,10 @@ img {
     padding-top: 15px;
 }
 
+#github-links {
+    margin: 10px;
+}
+
 dl {
     margin-left: 50px;
     max-width: 800px;
@@ -49,6 +53,11 @@ dl dt {
     display: flex;
     font-weight: bolder;
     align-items: center;
+}
+
+.laravel,
+.gcp {
+    margin-bottom: 30px;
 }
 
 p {

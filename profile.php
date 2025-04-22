@@ -24,6 +24,15 @@
                         座右の銘：日々アップデート
                     </li>
                 </ul>
+                <h2>連絡先</h2>
+                <ul>
+                    <li>
+                        メール：maki080806@icloud.com
+                    </li>
+                    <li>
+                        GitHub：<a href="https://github.com/maki-kuroda">https://github.com/maki-kuroda</a>
+                    </li>
+                </ul>
             </aside>
         </div>
 
