@@ -16,10 +16,10 @@
             </ul>
         </div>
         <div id="link">
-            <a href="sub/progate-portfolio">
+            <a href="https://kuroda.livebusinessstudent.net/hp">
                 <img src="images/items/progate-site.jpg" alt="ホームページ">
             </a>
-            <a href="sub/progate-php">
+            <a href="https://kuroda.livebusinessstudent.net/contact-page">
                 <img src="images/items/progate-form.jpg" alt="問い合わせページ">
             </a>
         </div>
@@ -70,9 +70,13 @@
             </ul>
         </div>
         <div id="link">
-            <a href="sub/janken2">
+            <a href="https://kuroda.livebusinessstudent.net/janken">
                 <img src="images/items/janken.png" alt="じゃんけん">
             </a>
+        </div>
+        <div id="github-links">
+            <p>GitHub:<a href="https://github.com/maki-kuroda/portfolio.git/sub/janken2">https://github.com/maki-kuroda/portfolio.git/sub/janken2</a>
+            </p>
         </div>
 
         <div class="reason">
@@ -134,6 +138,10 @@
         </div>
         <div id="link">
             <img src="images/items/index.png" alt="ポートフォリオのトップページ">
+        </div>
+        <div id="github-links">
+            <p>GitHub:<a href="https://github.com/maki-kuroda/portfolio.git">https://github.com/maki-kuroda/portfolio.git</a>
+            </p>
         </div>
         <div class="reason">
             <h3>
