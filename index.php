@@ -1,4 +1,5 @@
 <?php require_once 'header.php'; ?>
+<link rel="stylesheet" href="assets/css/index.css">
 <main>
     <div class="slideshow-container">
         <video src="images/items/index-video.mp4" autoplay muted></video>

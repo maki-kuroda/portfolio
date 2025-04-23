@@ -23,7 +23,7 @@
                 <li><a href="profile.php">profile</a></li>
                 <li><a href="skills.php">skills</a></li>
                 <li><a href="products.php">products</a></li>
-                <!-- <li><a href="contact.php">contact</a></li> -->
+                <li><a href="contact.php">contact</a></li>
             </ul>
         </div>
     </nav>

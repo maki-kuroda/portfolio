@@ -1,0 +1,101 @@
+:root {
+    --mainColor: #A39CBC;
+    --accentColor: #EBC2AE;
+    --baseColor: #F2F1F1;
+    --fontColor: #2D2828;
+    --shadow: #CBBAC4;
+}
+
+#formWrap {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid var(--baseColor);
+    border-radius: 8px;
+    font-family: 'Arial Rounded MT Bold', 'Hiragino Maru Gothic ProN', sans-serif;
+    color: var(--fontColor);
+    line-height: 1.6;
+    background-color: #F2F1F1;
+}
+
+h3 {
+    text-align: center;
+    color: var(--mainColor);
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.form-item {
+    margin-bottom: 40px;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: calc(100% - 12px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: "Times New Roman", "游明朝", "Yu Mincho", "游明朝体", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "HiraMinProN-W3", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+}
+
+textarea {
+    height: 200px;
+}
+
+.button-area {
+    text-align: center;
+    margin-top: 40px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--accentColor);
+    ;
+    color: var(--fontColor);
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: var(--accentColor);
+    transform: scale(1.05);
+}
+
+.note {
+    text-align: center;
+    font-size: 12px;
+    color: #777;
+    margin-top: 20px;
+}
+
+p {
+    margin: 15px auto;
+}
+
+.notes {
+    font-size: smaller;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 480px) {
+
+    input[type="submit"],
+    input[type="reset"] {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
