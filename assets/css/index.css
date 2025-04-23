@@ -10,17 +10,7 @@ main {
     padding: 0;
 }
 
-@media screen and (min-width: 768px) {
-
-    video {
-        margin-left: 250px;
-        max-width: 1100px;
-    }
-}
-
-@media screen and (maX-width: 767px) {
-    video {
-        margin: 0;
-        width: 100%;
-    }
+video {
+    margin: 0;
+    width: 100%;
 }
